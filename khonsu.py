@@ -23,8 +23,6 @@ if __name__ == "__main__":
 
     # Main loop
     while elapsed_time < max_time:
-
-
         time.sleep(time_step)
         current_time = time.time()
         elapsed_time = current_time - start_time
